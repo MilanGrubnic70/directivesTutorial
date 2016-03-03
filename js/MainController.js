@@ -16,15 +16,15 @@ app.controller('MainController', ['$scope', function($scope) {
     $scope.gameboard = {
         icon: 'img/gameboard.jpg',
         title: 'Gameboard',
-        developer: 'Milan G.',
+        developer: 'Milan',
         price: 1.99
     };
 
     $scope.forecast = {
         icon: 'img/forecast.jpg',
         title: 'Forecast',
-        developer: 'Forecast',
-        price: 1.99
+        developer: 'Forecast Devs',
+        price: 1.5
     };
 
 }]);
